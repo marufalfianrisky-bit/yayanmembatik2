@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik Indonesia | Warisan Budaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Yayan Membatik</h2>
+        <ul>
+            <li onclick="goPage('home')">Beranda</li>
+            <li onclick="goPage('sejarah')">Sejarah Batik</li>
+            <li onclick="goPage('jenis')">Jenis Batik</li>
+            <li onclick="goPage('filosofi')">Filosofi Motif</li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="page active">
+        <div class="banner">
+            <h1>Batik Indonesia</h1>
+            <p>
+                Batik bukan hanya kain bermotif, tetapi sebuah simbol peradaban, seni, dan filosofi bangsa Indonesia.
+            </p>
+            <button onclick="openIntro()">Mulai Belajar</button>
+        </div>
+    </section>
+
+    <!-- SEJARAH -->
+    <section id="sejarah" class="page">
+        <h2>Sejarah Batik Indonesia</h2>
+
+        <p>
+            Batik diyakini sudah ada sejak masa kerajaan Majapahit hingga berkembang pada masa Kesultanan Mataram di Jawa.
+            Pada awalnya batik hanya digunakan oleh kalangan bangsawan atau keluarga kerajaan, karena proses pembuatannya
+            memerlukan keterampilan tinggi serta motif motif tertentu hanya boleh dikenakan keluarga tertentu.
+        </p><br>
+
+        <p>
+            Pada abad ke-17 hingga ke-19 batik mulai berkembang di daerah pesisir akibat pengaruh perdagangan.
+            Batik pesisir banyak terpengaruh budaya asing seperti Tiongkok, Belanda, Arab, dan India.
+            Hal ini terlihat dari warna-warna cerah dan motif seperti phoenix, naga, serta ornamen bunga-bunga besar.
+        </p><br>
+
+        <p>
+            Tahun 2009, batik Indonesia resmi diakui sebagai Warisan Budaya Takbenda Dunia oleh UNESCO.
+            Sejak itu, tanggal 2 Oktober diperingati sebagai Hari Batik Nasional.
+        </p>
+    </section>
+
+    <!-- JENIS -->
+    <section id="jenis" class="page">
+        <h2>Jenis-Jenis Batik Indonesia</h2>
+
+        <div class="grid">
+            <div class="card" onclick="showDetail('tulis')">
+                <img src="batiktulis.jpg">
+                <h3>Batik Tulis</h3>
+            </div>
+
+            <div class="card" onclick="showDetail('cap')">
+                <img src="batikcap.jpg">
+                <h3>Batik Cap</h3>
+            </div>
+
+            <div class="card" onclick="showDetail('printing')">
+                <img src="batikprinting.jpg">
+                <h3>Batik Printing</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- FILOSOFI -->
+    <section id="filosofi" class="page">
+        <h2>Filosofi Motif Batik</h2>
+
+        <div class="grid">
+            <div class="card" onclick="showDetail('mega')">
+                <img src="batikmegamendung2.jpg">
+                <h3>Mega Mendung</h3>
+            </div>
+
+            <div class="card" onclick="showDetail('parang')">
+                <img src="batikparang.webp">
+                <h3>Parang</h3>
+            </div>
+
+            <div class="card" onclick="showDetail('kawung')">
+                <img src="batikkawung.webp">
+                <h3>Kawung</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- POPUP -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span onclick="closePopup()" class="close">✖</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-img">
+            <p id="popup-desc"></p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
