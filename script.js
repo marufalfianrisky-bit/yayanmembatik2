@@ -48,7 +48,7 @@ function openIntro() {
 
         "Selamat datang di kelas Batik Indonesia!",
 
-        "https://i.postimg.cc/4ybrJg24/batik-cover.png",
+        "https://img.sanishtech.com/u/0b489e659546a9a91297ee35398ab1ab.jpg",
 
         "Di sini kamu akan mempelajari sejarah batik, jenis-jenis batik, proses pembuatannya, serta filosofi setiap motifnya."
 
@@ -228,6 +228,7 @@ function showDetail(type) {
         )
 
     }
+
 
 
 
