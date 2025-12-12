@@ -72,7 +72,7 @@ function showDetail(type) {
 
             "Batik Tulis",
 
-            "https://img.sanishtech.com/u/d1003ea6c692bf46c874c1afec341b7e.jpg",
+            "https://img.sanishtech.com/u/0c26fc119c2973f6ee1344eeef3e7d83.jpg",
 
             `
 
@@ -125,7 +125,7 @@ function showDetail(type) {
 
             "Batik Printing",
 
-            "https://img.sanishtech.com/u/00591bc27de0a5fc5a56fea2e83e28cf.jpg",
+            "https://img.sanishtech.com/u/2888fb2294ff450949b141203bd98746.jpg",
 
             `
 
@@ -233,3 +233,4 @@ function showDetail(type) {
 
 
 }
+
