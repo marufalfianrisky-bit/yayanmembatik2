@@ -102,7 +102,7 @@ function showDetail(type) {
 
             "Batik Cap",
 
-            "https://img.sanishtech.com/u/a766a2daa1f97a2f662bb69210676841.jpg",
+            "https://image2url.com/images/1765512574326-28c99019-354c-41c1-84bf-6616491cb2d9.jpg",
             `
 
             Batik cap dibuat menggunakan alat tembaga berbentuk stempel.
@@ -153,7 +153,7 @@ function showDetail(type) {
 
             "Motif Mega Mendung",
 
-            "https://img.sanishtech.com/u/54ecdfe8f2a4c164b55b02e49eb38e5d.jpg",
+            "https://image2url.com/images/1765512623780-080779fc-2fbe-49b9-beb1-ac21528caae0.jpg",
 
             `
 
@@ -181,7 +181,7 @@ function showDetail(type) {
 
             "Motif Parang",
 
-            "https://img.sanishtech.com/u/24572e771febd8272c3f9ae3659215fd.jpg",
+            "https://image2url.com/images/1765512761898-32dd989c-5f07-410d-be07-fd29db3f774c.webp",
 
             `
 
@@ -209,7 +209,7 @@ function showDetail(type) {
 
             "Motif Kawung",
 
-            "https://img.sanishtech.com/u/6499d2e80fec6d0840eb036de2b38adc.jpg",
+            "https://image2url.com/images/1765512730476-53c880c2-92ae-4a4f-9319-79f83c79aeba.webp",
 
             `
 
@@ -233,4 +233,5 @@ function showDetail(type) {
 
 
 }
+
 
